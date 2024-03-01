@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JL</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img  class="logo" src="./img/logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Universe</a></li>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Batman v Superman: <span><br>Dawn of Justice</span></h2>
+                <p> Batman and Superman are two of the most popular superheroes
+                    in popular culture. They first appeared in comic books in
+                    the 1930s and have since become household names. While they
+                    share many similarities, they also have distinct personalities
+                    and story arcs. Both heroes are dedicated to protecting the
+                    innocent and upholding justice.</p>
+                    <a href="https://en.wikipedia.org/wiki/Batman_v_Superman:_Dawn_of_Justice">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img class="superheroes" src="./img/bat.png" alt="Bats">
+            </div>
+        </div>
+        <div class="Blogos">
+            <li><img onclick="imgSlider('./img/bat.png');changeColor('#414797');" src="img/batLogo.png" alt="batsy" height="90px"></li>
+            <li><img onclick="imgSlider('./img/ww.png');changeColor('#ffcd59');" src="img/wwLogo.png" alt="ww" height="75px"></li>
+            <li><img onclick="imgSlider('./img/sup.png');changeColor('#cb0000');" src="img/supLogo.png" alt="Sup" height="60px"></li>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+   
